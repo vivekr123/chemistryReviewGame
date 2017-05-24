@@ -51,7 +51,6 @@ runner.Game = function(){
 runner.Game.prototype = {
   create: function(){
 
-    this.game.add.plugin(PhaserInput.Plugin);
 
     //tiling the background - starts at top left, width is game width and hieght is 512. Asset key is background
     this.background = this.game.add.tileSprite(0,0, this.game.width, 1024,'background');
