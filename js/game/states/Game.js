@@ -240,7 +240,7 @@ runner.Game.prototype = {
     //this.coinSound.play();
     this.coinSound.volume=0.3;
 
-    if(this.score % 8 == 0){
+    if(this.score % 50 == 0){
 
       var iTest = 0;
 
